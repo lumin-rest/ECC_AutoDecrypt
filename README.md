@@ -1,5 +1,7 @@
 # [Project: Bronze Forever](https://bronzeforever.net/) - ECC Runtime Decryption
 
+Runtime decoder for Bronze Forever's ECC packet layer. Hooks Curve25519 ECDH exchange, ChaCha20 encryption, HMAC-SHA256 integrity, and ephemeral Schnorr signing to capture session keys and log plaintext traffic in real time. 
+
 > [!WARNING]
 > This requires your executor support the following functions: `getupvalues`, `getgenv`, `getloadedmodules`.
 
